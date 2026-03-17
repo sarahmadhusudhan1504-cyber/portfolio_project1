@@ -1,8 +1,13 @@
 body {
     margin: 0;
     font-family: Arial;
-    background: #0b0f14;
-    color: white;
+    background: #0f0a1f;
+    color: #e6d6ff;
+}
+
+/* SMOOTH SCROLL */
+html {
+    scroll-behavior: smooth;
 }
 
 /* NAVBAR */
@@ -14,7 +19,8 @@ nav {
 }
 
 .logo {
-    color: orange;
+    color: #c084fc;
+    font-size: 24px;
 }
 
 nav ul {
@@ -24,16 +30,17 @@ nav ul {
 }
 
 nav ul li a {
+    color: #e6d6ff;
     text-decoration: none;
-    color: white;
 }
 
+/* CONTACT BUTTON */
 .btn {
-    background: white;
-    color: black;
-    padding: 10px 20px;
+    background: #c084fc;
     border: none;
+    padding: 10px 20px;
     border-radius: 8px;
+    color: black;
 }
 
 /* HERO */
@@ -42,55 +49,102 @@ nav ul li a {
 }
 
 .tag {
-    color: gray;
-    letter-spacing: 2px;
+    color: #a78bfa;
 }
 
 .hero h1 {
-    font-size: 60px;
-    margin: 20px 0;
+    font-size: 55px;
+}
+
+.hero span {
+    color: #c084fc;
 }
 
 /* BUTTONS */
-.buttons {
-    margin-top: 20px;
-}
-
 .primary {
-    background: orange;
+    background: #c084fc;
     padding: 15px 25px;
     border: none;
-    color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-right: 10px;
 }
 
 .secondary {
-    background: #1c1c1c;
+    background: transparent;
+    border: 1px solid #c084fc;
     padding: 15px 25px;
-    border: none;
-    color: white;
-    border-radius: 8px;
+    border-radius: 10px;
+    color: #c084fc;
 }
 
 /* SECTIONS */
 section {
-    padding: 50px;
+    padding: 60px 50px;
 }
 
 h2 {
-    margin-bottom: 20px;
-    color: #ff8c00;
+    color: #c084fc;
 }
 
-/* FORM */
+/* SKILLS */
+.skill {
+    margin-bottom: 20px;
+}
+
+.bar {
+    height: 8px;
+    background: #2a1f4a;
+    border-radius: 5px;
+}
+
+.bar div {
+    height: 100%;
+    background: linear-gradient(to right, #c084fc, #a78bfa);
+    border-radius: 5px;
+}
+
+/* CONTACT FORM */
+form {
+    margin-top: 20px;
+}
+
 input {
     display: block;
     margin: 10px 0;
     padding: 12px;
-    width: 250px;
+    width: 280px;
+    border-radius: 8px;
+    border: none;
+    background: #1c1533;
+    color: white;
 }
 
 button {
-    padding: 10px 20px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background: #c084fc;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a855f7;
+}
+
+/* ANIMATION */
+.fade-in {
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

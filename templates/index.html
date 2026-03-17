@@ -17,78 +17,94 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#hackathons">Hackathons</a></li>
     </ul>
 
-    <button class="btn">Contact</button>
+    <a href="#contact"><button class="btn">Contact</button></a>
 </nav>
 
-<!-- HERO SECTION -->
-<section class="hero">
+<!-- HERO -->
+<section class="hero fade-in">
 
-<p class="tag">BCA STUDENT | DEVELOPER</p>
+<p class="tag">BCA STUDENT • DEVELOPER</p>
 
 <h1>
-Empowering ideas to build,<br>
-learn and grow faster 🚀
+Hi, I'm <span>Sarah Madhusudhan</span><br>
+Building modern digital experiences ✨
 </h1>
 
 <div class="buttons">
-<button class="primary">Let's Talk</button>
-<button class="secondary">View Work</button>
+    <a href="#contact">
+        <button class="primary">Let's Talk</button>
+    </a>
+
+    <a href="#certifications">
+        <button class="secondary">View Work</button>
+    </a>
 </div>
 
 </section>
 
 <!-- ABOUT -->
-<section id="about">
+<section id="about" class="fade-in">
 <h2>About Me</h2>
 <p>
-I am Sarah Madhusudhan, a passionate BCA student focused on web development,
-Python, and building real-world projects. I love creating modern and
-user-friendly applications.
+I am a passionate BCA student focused on web development, Python, and building
+real-world applications. I love creating modern and user-friendly websites.
 </p>
 </section>
 
 <!-- SKILLS -->
-<section id="skills">
+<section id="skills" class="fade-in">
 <h2>Skills</h2>
-<ul>
-<li>Python</li>
-<li>HTML & CSS</li>
-<li>Flask</li>
-<li>MySQL</li>
-<li>Git & GitHub</li>
-</ul>
+
+<div class="skill">
+<p>Python</p>
+<div class="bar"><div style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+<p>Web Development</p>
+<div class="bar"><div style="width:85%"></div></div>
+</div>
+
+<div class="skill">
+<p>MySQL</p>
+<div class="bar"><div style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+<p>Git & GitHub</p>
+<div class="bar"><div style="width:75%"></div></div>
+</div>
+
 </section>
 
 <!-- EDUCATION -->
-<section id="education">
+<section id="education" class="fade-in">
 <h2>Education</h2>
 <p>BCA - Kristu Jayanti College (2025–2028)</p>
 </section>
 
 <!-- CERTIFICATIONS -->
-<section id="certifications">
+<section id="certifications" class="fade-in">
 <h2>Certifications</h2>
 <p>Python for Beginners</p>
 <p>Web Development Basics</p>
 </section>
 
-<!-- HACKATHONS -->
-<section id="hackathons">
-<h2>Hackathons</h2>
-<p>Participated in college-level hackathons and coding challenges.</p>
-</section>
+<!-- CONTACT -->
+<section id="contact" class="fade-in">
 
-<!-- CONTACT FORM -->
-<section id="contact">
 <h2>Contact Me</h2>
 
 <form method="POST" action="/submit">
+
 <input type="text" name="name" placeholder="Enter your name" required>
+
 <input type="email" name="email" placeholder="Enter your email" required>
-<button type="submit">Send</button>
+
+<button type="submit">Submit</button>
+
 </form>
 
 </section>
