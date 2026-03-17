@@ -1,68 +1,96 @@
 body {
     margin: 0;
     font-family: Arial;
-    background: #f4f4f4;
-    color: #333;
+    background: #0b0f14;
+    color: white;
 }
 
-.main {
+/* NAVBAR */
+nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
 }
 
-/* LEFT PANEL */
-.left {
-    width: 35%;
-    background: #d9d9d9;
-    padding: 40px;
+.logo {
+    color: orange;
 }
 
-.left h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
 }
 
-.role {
-    color: #7fb3c9;
-    margin-bottom: 30px;
+nav ul li a {
+    text-decoration: none;
+    color: white;
 }
 
-.skills, .education {
-    margin-top: 40px;
+.btn {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
 }
 
-/* RIGHT PANEL */
-.right {
-    width: 65%;
-    background: #ffffff;
-    padding: 40px;
+/* HERO */
+.hero {
+    padding: 80px 50px;
 }
 
-.image {
-    text-align: center;
-    margin-bottom: 20px;
+.tag {
+    color: gray;
+    letter-spacing: 2px;
 }
 
-.image img {
-    width: 150px;
-    border-radius: 50%;
-    border: 3px solid #ccc;
+.hero h1 {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+/* BUTTONS */
+.buttons {
+    margin-top: 20px;
+}
+
+.primary {
+    background: orange;
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.secondary {
+    background: #1c1c1c;
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+/* SECTIONS */
+section {
+    padding: 50px;
 }
 
 h2 {
-    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #ff8c00;
 }
 
 /* FORM */
 input {
     display: block;
     margin: 10px 0;
-    padding: 10px;
+    padding: 12px;
     width: 250px;
 }
 
 button {
-    padding: 10px;
-    background: #7fb3c9;
-    border: none;
-    color: white;
+    padding: 10px 20px;
 }

@@ -8,84 +8,90 @@
 
 <body>
 
-<div class="main">
+<!-- NAVBAR -->
+<nav>
+    <h2 class="logo">Sarah</h2>
 
-<!-- LEFT SIDE -->
-<div class="left">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#hackathons">Hackathons</a></li>
+    </ul>
 
-<h1>Sarah<br>Madhusudhan</h1>
-<h3 class="role">BCA Student</h3>
+    <button class="btn">Contact</button>
+</nav>
 
-<p><b>P:</b> +91-XXXXXXXXXX</p>
-<p><b>E:</b> sarah@email.com</p>
-<p><b>L:</b> linkedin.com/in/sarah</p>
+<!-- HERO SECTION -->
+<section class="hero">
 
-<div class="skills">
-<h2>Skills:</h2>
-<p>Python</p>
-<p>HTML/CSS</p>
-<p>MySQL</p>
-<p>Flask</p>
-<p>Git & GitHub</p>
+<p class="tag">BCA STUDENT | DEVELOPER</p>
+
+<h1>
+Empowering ideas to build,<br>
+learn and grow faster 🚀
+</h1>
+
+<div class="buttons">
+<button class="primary">Let's Talk</button>
+<button class="secondary">View Work</button>
 </div>
 
-<div class="education">
-<h2>Education:</h2>
-<p><b>BCA</b><br>
-Kristu Jayanti College<br>
-2025 – 2028
-</p>
-</div>
+</section>
 
-</div>
-
-<!-- RIGHT SIDE -->
-<div class="right">
-
-<div class="image">
-<img src="/static/profile.jpg">
-</div>
-
-<h2>Summary:</h2>
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
 <p>
-Motivated BCA student with strong interest in web development,
-Python, and database systems. Passionate about building real-world
-projects and continuously learning new technologies.
+I am Sarah Madhusudhan, a passionate BCA student focused on web development,
+Python, and building real-world projects. I love creating modern and
+user-friendly applications.
 </p>
+</section>
 
-<h2>Professional Experience:</h2>
+<!-- SKILLS -->
+<section id="skills">
+<h2>Skills</h2>
+<ul>
+<li>Python</li>
+<li>HTML & CSS</li>
+<li>Flask</li>
+<li>MySQL</li>
+<li>Git & GitHub</li>
+</ul>
+</section>
 
-<p><b>Portfolio Project</b><br>
-Flask + MySQL Web App<br>
-2025 – Present
-</p>
+<!-- EDUCATION -->
+<section id="education">
+<h2>Education</h2>
+<p>BCA - Kristu Jayanti College (2025–2028)</p>
+</section>
 
-<p>
-Built and deployed a full-stack portfolio website using Flask,
-connected to a MySQL database to store user data.
-</p>
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+<h2>Certifications</h2>
+<p>Python for Beginners</p>
+<p>Web Development Basics</p>
+</section>
 
-<p><b>Learning Projects</b><br>
-Self Practice<br>
-2024 – 2025
-</p>
+<!-- HACKATHONS -->
+<section id="hackathons">
+<h2>Hackathons</h2>
+<p>Participated in college-level hackathons and coding challenges.</p>
+</section>
 
-<p>
-Worked on Python basics, web design, and GitHub projects to
-build strong programming fundamentals.
-</p>
-
+<!-- CONTACT FORM -->
+<section id="contact">
 <h2>Contact Me</h2>
 
 <form method="POST" action="/submit">
 <input type="text" name="name" placeholder="Enter your name" required>
 <input type="email" name="email" placeholder="Enter your email" required>
-<button type="submit">Submit</button>
+<button type="submit">Send</button>
 </form>
 
-</div>
-
-</div>
+</section>
 
 </body>
 </html>
