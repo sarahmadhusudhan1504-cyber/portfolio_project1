@@ -1,14 +1,58 @@
-body{
-font-family:Arial;
-text-align:center;
-background:#f2f2f2;
+body {
+    font-family: Arial;
+    background: #0f0f1a;
+    color: white;
+    text-align: center;
 }
 
-input{
-padding:10px;
-margin:10px;
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
 }
 
-button{
-padding:10px;
+.glow {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan;
+}
+
+.subtitle {
+    color: #aaa;
+}
+
+h2 {
+    color: cyan;
+}
+
+hr {
+    border: 1px solid cyan;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 5px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: cyan;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00ffff;
 }
