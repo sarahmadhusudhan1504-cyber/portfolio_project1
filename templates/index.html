@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <title>Sarah Portfolio</title>
-<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script defer src="{{ url_for('static', filename='script.js') }}"></script>
 </head>
 
 <body>
 
-<h1>Sarah Madhusudhan</h1>
-<p>BCA Student</p>
+<div class="container">
 
-<h2>Contact Me</h2>
+    <div class="profile">
+        <img src="{{ url_for('static', filename='images/profile.jpg') }}">
+        <h1>Sarah Madhusudhan</h1>
+        <p>WEB DEVELOPER| Future Developer</p>
+    </div>
 
-<form method="POST" action="/submit">
+    <div class="section">
+        <h2>Contact Me</h2>
 
-<input type="text" name="name" placeholder="Enter your name">
+        <form method="POST" action="/submit" id="form">
 
-<br><br>
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
 
-<input type="email" name="email" placeholder="Enter your email">
+            <button type="submit">Submit</button>
 
-<br><br>
+        </form>
 
-<button type="submit">Submit</button>
+        <p id="message"></p>
+    </div>
 
-</form>
+</div>
 
 </body>
 </html>
