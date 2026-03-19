@@ -1,14 +1,40 @@
-body{
-font-family:Arial;
-text-align:center;
-background:#f2f2f2;
+body {
+    font-family: Arial;
+    background: #1e1e2f;
+    color: white;
+    margin: 0;
 }
 
-input{
-padding:10px;
-margin:10px;
+.container {
+    text-align: center;
+    padding: 50px;
 }
 
-button{
-padding:10px;
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    border: 3px solid #f9c74f;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+input {
+    padding: 12px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 12px 20px;
+    background: #f9c74f;
+    border: none;
+    cursor: pointer;
 }
